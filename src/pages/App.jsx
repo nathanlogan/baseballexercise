@@ -14,8 +14,8 @@ export default function App() {
   const [selectedPlayerIds, setSelectedPlayerIds] = useState(new Set())
   const [downloadedPlayerData, setDownloadedPlayerData] = useState({})
   const [availablePlayerData, setAvailablePlayerData] = useState([])
-  const [topPlayersModules, setTopPlayersModules] = useState(new Set(["AVG", "OBP", "OPS", "ISO"]))
   const [use10Day, setUse10Day] = useState(false)
+  const [topPlayersModules, setTopPlayersModules] = useState(new Set(["AVG", "OBP", "OPS", "ISO"]))
 
   const { data, isLoading, error } = useGetPlayers()
 
@@ -76,7 +76,7 @@ export default function App() {
         <h3>Season Graph</h3>
         <Chart players={availablePlayerData} isRollingAvg={use10Day} />
 
-        <h3>Selected Player Rankings {use10Day ? "(over last 10 games)" : ""}</h3>
+        <h3>Selected Player Rankings {use10Day ? "(over most recent 10 games)" : ""}</h3>
         {Array.from(topPlayersModules).map(stat => {
           const title = DERIVED_STATS_LABELED[stat]?.label || STATS_LABELED[stat]?.label
           return <TopPlayers key={stat} players={availablePlayerData} label={stat} title={title} stat={use10Day ? `ROLLING_${stat}` : stat} />

@@ -3,7 +3,7 @@ import styles from './Chart.module.css'
 
 import { STATS_LABELED, DERIVED_STATS_LABELED } from '../../utils/constants';
 
-import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line } from 'recharts';
+import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line, ResponsiveContainer } from 'recharts';
 
 const preparePlayerDataForCharting = (players, stat) => {
   const allDates = players.flatMap(player => player.map(game => game.date))
@@ -53,23 +53,29 @@ export function Chart({players, isRollingAvg}) {
         </select>
       </label>
 
-      {chartData && <LineChart width={1400} height={400} data={chartData} margin={{ top: 20, right: 30, left: 20, bottom: 10 }}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="date" />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        {playersAsArray.map(playerGroup => (
-          <Line
-            key={playerGroup[0].playerFullName}
-            type="monotone"
-            dataKey={playerGroup[0].playerFullName}
-            stroke={`#${Math.floor(Math.random() * 16777215).toString(16)}`}
-            dot={({isHover}) => (isHover ? <circle cx={props.cx} cy={props.cy} r={4} /> : null)}
-            connectNulls
-          />
-        ))}
-      </LineChart>}
+      {chartData && (
+        <div style={{ width: '100%', height: '400px' }}>
+          <ResponsiveContainer>
+            <LineChart width={1400} height={400} data={chartData} margin={{ top: 20, right: 30, left: 20, bottom: 10 }}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="date" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              {playersAsArray.map(playerGroup => (
+                <Line
+                  key={playerGroup[0].playerFullName}
+                  type="monotone"
+                  dataKey={playerGroup[0].playerFullName}
+                  stroke={`#${Math.floor(Math.random() * 16777215).toString(16)}`}
+                  dot={({isHover}) => (isHover ? <circle cx={props.cx} cy={props.cy} r={4} /> : null)}
+                  connectNulls
+                />
+              ))}
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+      )}
     </div>
   );
 }
