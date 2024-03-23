@@ -1,0 +1,17 @@
+.container {
+    display: inline-block;
+    margin: 0 10px 20px 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+.container h3 {
+    margin: 0 0 0 0;
+    padding: 5px 10px;
+    color: #444;
+    font-size: 16px;
+    border-bottom: 1px solid #999;
+}
+.container ol {
+    padding: 10px 20px 10px 30px;
+    margin: 0;
+}

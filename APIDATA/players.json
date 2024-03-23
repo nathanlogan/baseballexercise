@@ -1,0 +1,800 @@
+[
+    {
+        "playerId": 457759,
+        "playerFullName": "Justin Turner",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/457759@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/111.svg"
+    },
+    {
+        "playerId": 467793,
+        "playerFullName": "Carlos Santana",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/467793@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/158.svg"
+    },
+    {
+        "playerId": 518692,
+        "playerFullName": "Freddie Freeman",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/518692@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    {
+        "playerId": 518934,
+        "playerFullName": "DJ LeMahieu",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/518934@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/147.svg"
+    },
+    {
+        "playerId": 502671,
+        "playerFullName": "Paul Goldschmidt",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/502671@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/138.svg"
+    },
+    {
+        "playerId": 521692,
+        "playerFullName": "Salvador Perez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/521692@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/118.svg"
+    },
+    {
+        "playerId": 547180,
+        "playerFullName": "Bryce Harper",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/547180@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/143.svg"
+    },
+    {
+        "playerId": 592518,
+        "playerFullName": "Manny Machado",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592518@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 595777,
+        "playerFullName": "Jurickson Profar",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/595777@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 571448,
+        "playerFullName": "Nolan Arenado",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/571448@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/138.svg"
+    },
+    {
+        "playerId": 542303,
+        "playerFullName": "Marcell Ozuna",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/542303@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 592885,
+        "playerFullName": "Christian Yelich",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592885@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/158.svg"
+    },
+    {
+        "playerId": 593428,
+        "playerFullName": "Xander Bogaerts",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/593428@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 592206,
+        "playerFullName": "Nick Castellanos",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592206@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/143.svg"
+    },
+    {
+        "playerId": 608070,
+        "playerFullName": "José Ramírez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/608070@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/114.svg"
+    },
+    {
+        "playerId": 543760,
+        "playerFullName": "Marcus Semien",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/543760@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/140.svg"
+    },
+    {
+        "playerId": 547989,
+        "playerFullName": "José Abreu",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/547989@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/117.svg"
+    },
+    {
+        "playerId": 543807,
+        "playerFullName": "George Springer",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/543807@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/141.svg"
+    },
+    {
+        "playerId": 553993,
+        "playerFullName": "Eugenio Suárez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/553993@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/136.svg"
+    },
+    {
+        "playerId": 592663,
+        "playerFullName": "J.T. Realmuto",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592663@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/143.svg"
+    },
+    {
+        "playerId": 605141,
+        "playerFullName": "Mookie Betts",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/605141@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    {
+        "playerId": 571771,
+        "playerFullName": "Enrique Hernández",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/571771@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/111.svg"
+    },
+    {
+        "playerId": 595879,
+        "playerFullName": "Javier Báez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/595879@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/116.svg"
+    },
+    {
+        "playerId": 624585,
+        "playerFullName": "Jorge Soler",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/624585@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/146.svg"
+    },
+    {
+        "playerId": 572233,
+        "playerFullName": "Christian Walker",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/572233@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/109.svg"
+    },
+    {
+        "playerId": 592192,
+        "playerFullName": "Mark Canha",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592192@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/158.svg"
+    },
+    {
+        "playerId": 593160,
+        "playerFullName": "Whit Merrifield",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/593160@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/141.svg"
+    },
+    {
+        "playerId": 596019,
+        "playerFullName": "Francisco Lindor",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/596019@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/121.svg"
+    },
+    {
+        "playerId": 606466,
+        "playerFullName": "Ketel Marte",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/606466@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/109.svg"
+    },
+    {
+        "playerId": 553869,
+        "playerFullName": "Elias Díaz",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/553869@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/115.svg"
+    },
+    {
+        "playerId": 592696,
+        "playerFullName": "Eddie Rosario",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592696@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 571970,
+        "playerFullName": "Max Muncy",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/571970@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    {
+        "playerId": 592669,
+        "playerFullName": "Hunter Renfroe",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592669@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/108.svg"
+    },
+    {
+        "playerId": 607043,
+        "playerFullName": "Brandon Nimmo",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/607043@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/121.svg"
+    },
+    {
+        "playerId": 605137,
+        "playerFullName": "Josh Bell",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/605137@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/114.svg"
+    },
+    {
+        "playerId": 608369,
+        "playerFullName": "Corey Seager",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/608369@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/140.svg"
+    },
+    {
+        "playerId": 592273,
+        "playerFullName": "Brandon Drury",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/592273@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/108.svg"
+    },
+    {
+        "playerId": 606192,
+        "playerFullName": "Teoscar Hernández",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/606192@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/136.svg"
+    },
+    {
+        "playerId": 641313,
+        "playerFullName": "Tim Anderson",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/641313@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/145.svg"
+    },
+    {
+        "playerId": 656305,
+        "playerFullName": "Matt Chapman",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/656305@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/141.svg"
+    },
+    {
+        "playerId": 606115,
+        "playerFullName": "Orlando Arcia",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/606115@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 600869,
+        "playerFullName": "Jeimer Candelario",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/600869@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/120.svg"
+    },
+    {
+        "playerId": 621043,
+        "playerFullName": "Carlos Correa",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/621043@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/142.svg"
+    },
+    {
+        "playerId": 650490,
+        "playerFullName": "Yandy Díaz",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/650490@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/139.svg"
+    },
+    {
+        "playerId": 621566,
+        "playerFullName": "Matt Olson",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/621566@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 641487,
+        "playerFullName": "J.P. Crawford",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/641487@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/136.svg"
+    },
+    {
+        "playerId": 643446,
+        "playerFullName": "Jeff McNeil",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/643446@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/121.svg"
+    },
+    {
+        "playerId": 656941,
+        "playerFullName": "Kyle Schwarber",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/656941@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/143.svg"
+    },
+    {
+        "playerId": 641857,
+        "playerFullName": "Ryan McMahon",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/641857@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/115.svg"
+    },
+    {
+        "playerId": 642086,
+        "playerFullName": "Dominic Smith",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/642086@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/120.svg"
+    },
+    {
+        "playerId": 608841,
+        "playerFullName": "Joey Meneses",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/608841@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/120.svg"
+    },
+    {
+        "playerId": 623993,
+        "playerFullName": "Anthony Santander",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/623993@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/110.svg"
+    },
+    {
+        "playerId": 642715,
+        "playerFullName": "Willy Adames",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/642715@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/158.svg"
+    },
+    {
+        "playerId": 642708,
+        "playerFullName": "Amed Rosario",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/642708@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/114.svg"
+    },
+    {
+        "playerId": 607208,
+        "playerFullName": "Trea Turner",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/607208@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/143.svg"
+    },
+    {
+        "playerId": 605204,
+        "playerFullName": "J.D. Davis",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/605204@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/137.svg"
+    },
+    {
+        "playerId": 642731,
+        "playerFullName": "Thairo Estrada",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/642731@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/137.svg"
+    },
+    {
+        "playerId": 650402,
+        "playerFullName": "Gleyber Torres",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/650402@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/147.svg"
+    },
+    {
+        "playerId": 641355,
+        "playerFullName": "Cody Bellinger",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/641355@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/112.svg"
+    },
+    {
+        "playerId": 645277,
+        "playerFullName": "Ozzie Albies",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/645277@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 646240,
+        "playerFullName": "Rafael Devers",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/646240@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/111.svg"
+    },
+    {
+        "playerId": 657077,
+        "playerFullName": "Alex Verdugo",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/657077@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/111.svg"
+    },
+    {
+        "playerId": 650559,
+        "playerFullName": "Bryan De La Cruz",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/650559@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/146.svg"
+    },
+    {
+        "playerId": 650333,
+        "playerFullName": "Luis Arraez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/650333@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/146.svg"
+    },
+    {
+        "playerId": 657041,
+        "playerFullName": "Lane Thomas",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/657041@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/120.svg"
+    },
+    {
+        "playerId": 660688,
+        "playerFullName": "Keibert Ruiz",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/660688@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/120.svg"
+    },
+    {
+        "playerId": 661388,
+        "playerFullName": "William Contreras",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/661388@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/158.svg"
+    },
+    {
+        "playerId": 664034,
+        "playerFullName": "Ty France",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/664034@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/136.svg"
+    },
+    {
+        "playerId": 663886,
+        "playerFullName": "Tyler Stephenson",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663886@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/113.svg"
+    },
+    {
+        "playerId": 664023,
+        "playerFullName": "Ian Happ",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/664023@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/112.svg"
+    },
+    {
+        "playerId": 630105,
+        "playerFullName": "Jake Cronenworth",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/630105@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 663757,
+        "playerFullName": "Trent Grisham",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663757@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 663656,
+        "playerFullName": "Kyle Tucker",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663656@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/117.svg"
+    },
+    {
+        "playerId": 660670,
+        "playerFullName": "Ronald Acuña Jr.",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/660670@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 663586,
+        "playerFullName": "Austin Riley",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663586@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 664774,
+        "playerFullName": "LaMonte Wade Jr.",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/664774@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/137.svg"
+    },
+    {
+        "playerId": 664702,
+        "playerFullName": "Myles Straw",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/664702@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/114.svg"
+    },
+    {
+        "playerId": 608324,
+        "playerFullName": "Alex Bregman",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/608324@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/117.svg"
+    },
+    {
+        "playerId": 663647,
+        "playerFullName": "Ke'Bryan Hayes",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663647@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/134.svg"
+    },
+    {
+        "playerId": 643217,
+        "playerFullName": "Andrew Benintendi",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/643217@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/145.svg"
+    },
+    {
+        "playerId": 621020,
+        "playerFullName": "Dansby Swanson",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/621020@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/112.svg"
+    },
+    {
+        "playerId": 665750,
+        "playerFullName": "Leody Taveras",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/665750@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/140.svg"
+    },
+    {
+        "playerId": 665742,
+        "playerFullName": "Juan Soto",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/665742@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 665926,
+        "playerFullName": "Andrés Giménez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/665926@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/114.svg"
+    },
+    {
+        "playerId": 669242,
+        "playerFullName": "Tommy Edman",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/669242@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/138.svg"
+    },
+    {
+        "playerId": 663993,
+        "playerFullName": "Nathaniel Lowe",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663993@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/140.svg"
+    },
+    {
+        "playerId": 665487,
+        "playerFullName": "Fernando Tatis Jr.",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/665487@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 670623,
+        "playerFullName": "Isaac Paredes",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/670623@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/139.svg"
+    },
+    {
+        "playerId": 669720,
+        "playerFullName": "Austin Hays",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/669720@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/110.svg"
+    },
+    {
+        "playerId": 669257,
+        "playerFullName": "Will Smith",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/669257@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    {
+        "playerId": 665489,
+        "playerFullName": "Vladimir Guerrero Jr.",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/665489@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/141.svg"
+    },
+    {
+        "playerId": 666182,
+        "playerFullName": "Bo Bichette",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/666182@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/141.svg"
+    },
+    {
+        "playerId": 668804,
+        "playerFullName": "Bryan Reynolds",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/668804@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/134.svg"
+    },
+    {
+        "playerId": 624413,
+        "playerFullName": "Pete Alonso",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/624413@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/121.svg"
+    },
+    {
+        "playerId": 669261,
+        "playerFullName": "Jack Suwinski",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/669261@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/134.svg"
+    },
+    {
+        "playerId": 656716,
+        "playerFullName": "Zach McKinstry",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/656716@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/116.svg"
+    },
+    {
+        "playerId": 670770,
+        "playerFullName": "TJ Friedl",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/670770@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/113.svg"
+    },
+    {
+        "playerId": 666971,
+        "playerFullName": "Lourdes Gurriel Jr.",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/666971@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/109.svg"
+    },
+    {
+        "playerId": 668227,
+        "playerFullName": "Randy Arozarena",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/668227@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/139.svg"
+    },
+    {
+        "playerId": 666969,
+        "playerFullName": "Adolis García",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/666969@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/140.svg"
+    },
+    {
+        "playerId": 673357,
+        "playerFullName": "Luis Robert Jr.",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/673357@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/145.svg"
+    },
+    {
+        "playerId": 672580,
+        "playerFullName": "Maikel Garcia",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/672580@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/118.svg"
+    },
+    {
+        "playerId": 662139,
+        "playerFullName": "Daulton Varsho",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/662139@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/141.svg"
+    },
+    {
+        "playerId": 667670,
+        "playerFullName": "Brent Rooker",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/667670@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/133.svg"
+    },
+    {
+        "playerId": 669004,
+        "playerFullName": "MJ Melendez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/669004@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/118.svg"
+    },
+    {
+        "playerId": 669394,
+        "playerFullName": "Jake Burger",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/669394@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/145.svg"
+    },
+    {
+        "playerId": 660271,
+        "playerFullName": "Shohei Ohtani",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/660271@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/108.svg"
+    },
+    {
+        "playerId": 677594,
+        "playerFullName": "Julio Rodríguez",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/677594@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/136.svg"
+    },
+    {
+        "playerId": 678662,
+        "playerFullName": "Ezequiel Tovar",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/678662@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/115.svg"
+    },
+    {
+        "playerId": 665161,
+        "playerFullName": "Jeremy Peña",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/665161@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/117.svg"
+    },
+    {
+        "playerId": 663457,
+        "playerFullName": "Lars Nootbaar",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663457@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/138.svg"
+    },
+    {
+        "playerId": 663837,
+        "playerFullName": "Matt Vierling",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663837@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/116.svg"
+    },
+    {
+        "playerId": 664761,
+        "playerFullName": "Alec Bohm",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/664761@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/143.svg"
+    },
+    {
+        "playerId": 681546,
+        "playerFullName": "James Outman",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/681546@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    {
+        "playerId": 663538,
+        "playerFullName": "Nico Hoerner",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663538@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/112.svg"
+    },
+    {
+        "playerId": 663697,
+        "playerFullName": "Jonathan India",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663697@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/113.svg"
+    },
+    {
+        "playerId": 663728,
+        "playerFullName": "Cal Raleigh",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/663728@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/136.svg"
+    },
+    {
+        "playerId": 680757,
+        "playerFullName": "Steven Kwan",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/680757@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/114.svg"
+    },
+    {
+        "playerId": 682928,
+        "playerFullName": "CJ Abrams",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/682928@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/120.svg"
+    },
+    {
+        "playerId": 677951,
+        "playerFullName": "Bobby Witt Jr.",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/677951@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/118.svg"
+    },
+    {
+        "playerId": 668715,
+        "playerFullName": "Spencer Steer",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/668715@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/113.svg"
+    },
+    {
+        "playerId": 671739,
+        "playerFullName": "Michael Harris II",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/671739@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/144.svg"
+    },
+    {
+        "playerId": 682998,
+        "playerFullName": "Corbin Carroll",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/682998@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/109.svg"
+    },
+    {
+        "playerId": 683011,
+        "playerFullName": "Anthony Volpe",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/683011@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/147.svg"
+    },
+    {
+        "playerId": 683734,
+        "playerFullName": "Andrew Vaughn",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/683734@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/145.svg"
+    },
+    {
+        "playerId": 668939,
+        "playerFullName": "Adley Rutschman",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/668939@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/110.svg"
+    },
+    {
+        "playerId": 683002,
+        "playerFullName": "Gunnar Henderson",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/683002@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/110.svg"
+    },
+    {
+        "playerId": 681082,
+        "playerFullName": "Bryson Stott",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/681082@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/143.svg"
+    },
+    {
+        "playerId": 673962,
+        "playerFullName": "Josh Jung",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/673962@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/140.svg"
+    },
+    {
+        "playerId": 679529,
+        "playerFullName": "Spencer Torkelson",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/679529@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/116.svg"
+    },
+    {
+        "playerId": 673490,
+        "playerFullName": "Ha-Seong Kim",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/673490@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    {
+        "playerId": 673548,
+        "playerFullName": "Seiya Suzuki",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/673548@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/112.svg"
+    },
+    {
+        "playerId": 807799,
+        "playerFullName": "Masataka Yoshida",
+        "playerImage": "https://content.mlb.com/images/headshots/current/60x60/807799@2x.png",
+        "teamImage": "https://www.mlbstatic.com/team-logos/111.svg"
+    }
+]

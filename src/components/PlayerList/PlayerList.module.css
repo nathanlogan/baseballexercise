@@ -1,0 +1,17 @@
+.container {
+    min-width: 250px;
+    max-height: 100vh;
+    overflow: scroll;
+    border-right: 2px solid #d8d8d8;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container label {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+}
+.container input {
+    margin-right: 7px;
+}
