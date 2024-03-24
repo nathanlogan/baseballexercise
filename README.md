@@ -32,19 +32,18 @@ You can choose to host the project yourself, or send us the files and we’ll ho
 
 # Implementation
 
-## Known Issues (out of scope for the exercise, but would need to be tackled in a prod app)
-1. There's an issue (seemingly with Recharts itself), where the data is there, but it's not rendering it.
-2. The API key is being stored in the front-end code.  Huge "no-no" in a real app.
-3. The temp token is being stored in global scope.  Again, not ideal.
+## Known Issues (out of scope for the exercise, but would be addressed in a prod app)
+1. The API key is being stored in the front-end code.  Huge "no-no" in a real app.
+2. The temp token is being stored in global scope.  Again, not ideal.
 
 ## Possible Features
 - Add/remove "top performer" modules
 - Search players
+- Clear selected players ("Select All" is probably just too intensive, unless we were to limit graphing)
 - Store user selections in local storage to serve as future defaults
 - Allow user to set desired number of days for rolling stats
 - Add more explanation around the implications of using rolling stats
 
 ## TODO:
-- deploy to GH Pages
 - tackle other TODOs
-- fix "lower is better" stats sorting in "top rankings"
+- fix "lower is better" stats sorting in "top rankings" (likely add a property indicating it's an "inverse" stat)

@@ -11,7 +11,7 @@ export function TopPlayers({ players = [], label, title, stat }) {
         <ol>
             {sortedPlayersByStat.map((player) => (
                 <li key={player.playerId}>
-                    {player.playerFullName}: {player[stat]}
+                    {player.playerFullName}: <strong>{player[stat]}</strong>
                 </li>
             ))}
         </ol>

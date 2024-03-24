@@ -74,7 +74,7 @@ export default function App() {
         </div>
 
         <h3>Season Graph</h3>
-        <Chart players={availablePlayerData} isRollingAvg={use10Day} />
+        <Chart players={data} playersData={availablePlayerData} isRollingAvg={use10Day} />
 
         <h3>Selected Player Rankings {use10Day ? "(over most recent 10 games)" : ""}</h3>
         {Array.from(topPlayersModules).map(stat => {

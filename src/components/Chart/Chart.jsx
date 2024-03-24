@@ -4,6 +4,7 @@ import styles from './Chart.module.css'
 import { STATS_LABELED, DERIVED_STATS_LABELED } from '../../utils/constants';
 
 import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line, ResponsiveContainer } from 'recharts';
+import { getPlayerColorByPlayerId } from '../../utils/getPlayerColorByPlayerId';
 
 const preparePlayerDataForCharting = (players, stat) => {
   const allDates = players.flatMap(player => player.map(game => game.date))
@@ -33,10 +34,10 @@ const preparePlayerDataForCharting = (players, stat) => {
 
 
 // TODO: optimize processed player data calculations through memoization or shared state or ?
-export function Chart({players, isRollingAvg}) {
+export function Chart({players, playersData, isRollingAvg}) {
   const [selectedStat, setSelectedStat] = useState('OPS')
 
-  const playersAsArray = players && Object.entries(players).map(([key, value]) => (value))
+  const playersAsArray = playersData && Object.entries(playersData).map(([key, value]) => (value))
   const chartData = playersAsArray && preparePlayerDataForCharting(playersAsArray, isRollingAvg ? `ROLLING_${selectedStat}` : selectedStat)
 
   return (
@@ -62,16 +63,18 @@ export function Chart({players, isRollingAvg}) {
               <YAxis />
               <Tooltip />
               <Legend />
-              {playersAsArray.map(playerGroup => (
-                <Line
-                  key={playerGroup[0].playerFullName}
-                  type="monotone"
-                  dataKey={playerGroup[0].playerFullName}
-                  stroke={`#${Math.floor(Math.random() * 16777215).toString(16)}`}
-                  dot={({isHover}) => (isHover ? <circle cx={props.cx} cy={props.cy} r={4} /> : null)}
-                  connectNulls
-                />
-              ))}
+              {playersAsArray.map(playerGames => {
+                return (
+                  <Line
+                    key={playerGames[0].playerFullName}
+                    type="monotone"
+                    dataKey={playerGames[0].playerFullName}
+                    stroke={getPlayerColorByPlayerId(players, playerGames[0].playerId)}
+                    dot={({isHover}) => (isHover ? <circle cx={props.cx} cy={props.cy} r={4} /> : null)}
+                    connectNulls
+                  />
+                )
+              })}
             </LineChart>
           </ResponsiveContainer>
         </div>
