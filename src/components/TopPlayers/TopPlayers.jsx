@@ -1,4 +1,3 @@
-import { DERIVED_STATS_LABELED, STATS_LABELED } from "../../utils/constants";
 import styles from "./TopPlayers.module.css";
 
 export function TopPlayers({ players = [], label, title, stat }) {
@@ -18,6 +17,3 @@ export function TopPlayers({ players = [], label, title, stat }) {
     </div>
   );
 }
-
-
-        

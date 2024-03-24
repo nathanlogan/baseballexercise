@@ -13,6 +13,10 @@
     display: inline-block;
     margin-right: 5px;
 }
+.selectPlayers {
+    padding: 20px;
+    text-align: center;
+}
 .container h3 {
     padding: 0 20px;
     color: #333;

@@ -3,6 +3,7 @@ import axios from "axios";
 
 import { useGetToken } from "./useGetToken";
 import { getUniqueColorByIndex } from "../utils/getColorByIndex";
+
 const ENDPOINT = "https://project.trumedianetworks.com/api/mlb/players";
 
 export function useGetPlayers() {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import classes from './App.module.css'
+import styles from './App.module.css'
 
 import { DERIVED_STATS_LABELED, STATS_LABELED } from '../utils/constants'
 
@@ -15,10 +15,12 @@ export default function App() {
   const [downloadedPlayerData, setDownloadedPlayerData] = useState({})
   const [availablePlayerData, setAvailablePlayerData] = useState([])
   const [use10Day, setUse10Day] = useState(false)
+  // obviously not implemented yet, but this was wired in anticipation of enabling users to add/remove their own
   const [topPlayersModules, setTopPlayersModules] = useState(new Set(["AVG", "OBP", "OPS", "ISO"]))
 
-  const { data, isLoading, error } = useGetPlayers()
+  const { data: players, isLoading: isLoadingPlayers, error: playersError } = useGetPlayers()
 
+  // builds us the union of players selected and also already downloaded
   useEffect(() => {
     const selectedAndDownloadedPlayerData = []
     
@@ -40,6 +42,7 @@ export default function App() {
 
         // go retrieve this player
         if (!downloadedPlayerData[playerId]) {
+          // TODO: replace this with React Query approach
           getPlayerInfo(playerId)
             .then(data => {
                 setDownloadedPlayerData(current => {
@@ -56,31 +59,44 @@ export default function App() {
   }
   
   return (
-    <div className={classes.container}>
+    <div className={styles.container}>
       <PlayerList
-        loading={isLoading}
-        error={error?.message}
-        players={data}
+        loading={isLoadingPlayers}
+        error={playersError?.message}
+        players={players}
         selectedPlayerIds={selectedPlayerIds}
         toggleSelect={togglePlayer}
       />
 
       <section>
-        <div className={classes.toggle}>
-          <label>
-            <input type="checkbox" checked={use10Day} onChange={() => setUse10Day(!use10Day)} />
-            Use rolling 10-game data, instead of full-season (reveals shorter-term trends)
-          </label>
-        </div>
+        {!availablePlayerData.length ? <p className={styles.selectPlayers}>Select player(s) on the left...</p> : (
+          <>
+            <div className={styles.toggle}>
+              <label>
+                <input type="checkbox" checked={use10Day} onChange={() => setUse10Day(!use10Day)} />
+                Use rolling 10-game data, instead of full-season (reveals shorter-term trends)
+              </label>
+            </div>
 
-        <h3>Season Graph</h3>
-        <Chart players={data} playersData={availablePlayerData} isRollingAvg={use10Day} />
+            <h3>Season Graph</h3>
+            <Chart players={players} playersData={availablePlayerData} isRollingAvg={use10Day} />
 
-        <h3>Selected Player Rankings {use10Day ? "(over most recent 10 games)" : ""}</h3>
-        {Array.from(topPlayersModules).map(stat => {
-          const title = DERIVED_STATS_LABELED[stat]?.label || STATS_LABELED[stat]?.label
-          return <TopPlayers key={stat} players={availablePlayerData} label={stat} title={title} stat={use10Day ? `ROLLING_${stat}` : stat} />
-        })}
+            <h3>Selected Player Rankings {use10Day ? "(over most recent 10 games)" : ""}</h3>
+            {/* TODO: move to its own component */}
+            {Array.from(topPlayersModules).map(stat => {
+              const title = DERIVED_STATS_LABELED[stat]?.label || STATS_LABELED[stat]?.label
+              return (
+                <TopPlayers
+                  key={stat}
+                  players={availablePlayerData}
+                  label={stat}
+                  title={title}
+                  stat={use10Day ? `ROLLING_${stat}` : stat}
+                />
+              )
+            })}
+          </>
+        )}
       </section>
     </div>
   )
