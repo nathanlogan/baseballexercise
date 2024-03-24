@@ -43,6 +43,7 @@ You can choose to host the project yourself, or send us the files and we’ll ho
 7. CSS variables and other "shared" CSS wasn't utilized (particularly since there was no design to reference).
 8. API endpoints could be cleaned up, not just for environment considerations, but also to keep it DRY.
 9. No real considerations were put into accessibility or responsiveness/UX at smaller screen sizes.
+10.  While the data is roughly verified, I would definitely want to triple check it before going to production.
 
 ## Possible Features
 - Let user add/remove "top performer" modules
