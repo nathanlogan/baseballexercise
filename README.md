@@ -33,17 +33,15 @@ You can choose to host the project yourself, or send us the files and we’ll ho
 # Implementation
 
 ## Known Issues (out of scope for the exercise, but would be addressed in a prod app)
-1. The API key is being stored in the front-end code.  Huge "no-no" in a real app.
+1. The API key is being stored in the front-end code (and worse, globally in the "window").  Huge "no-no" in a real app.
 2. The temp token is being stored in global scope.  Again, not ideal.
+3. A couple optimizations, particularly through memoization, would improve performance.
 
 ## Possible Features
-- Add/remove "top performer" modules
-- Search players
-- Clear selected players ("Select All" is probably just too intensive, unless we were to limit graphing)
-- Store user selections in local storage to serve as future defaults
+- Let user add/remove "top performer" modules
+  - Would also want to add sorting for "lower is better" stats like strikeouts (e.g. add a property to the stat definitions & sort accordingly)
+- Search to filter for players
+- Clear selected players ("Select All" is interesting, but probably just too much - could be done by limiting players graphed)
+- Store user selections (players, stats, rolling game data toggle) in local storage to serve as future defaults
 - Allow user to set desired number of days for rolling stats
 - Add more explanation around the implications of using rolling stats
-
-## TODO:
-- tackle other TODOs
-- fix "lower is better" stats sorting in "top rankings" (likely add a property indicating it's an "inverse" stat)
